@@ -61,19 +61,21 @@
   display: none;
 }
 .ItemUser {
-  margin-top: 20px;
-
   font-size: 20px;
   font-weight: 700;
   display: flex;
+  padding: 15px;
   &-Name {
     color: #8e44ad;
+    width: 30%;
   }
   &-Email {
     color: #e74c3c;
+    width: 60%;
   }
   &-Password {
     color: orange;
+    width: 10%;
   }
 }
 .User {
