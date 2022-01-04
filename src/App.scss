@@ -1,0 +1,84 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 600px;
+  padding: 2rem;
+  min-height: 300px;
+  border-radius: 1rem;
+  background-color: #bdc3c7;
+}
+.FormGroup {
+  margin-top: 10px;
+  label {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+  }
+  input {
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    width: 300px;
+  }
+  input:focus {
+    border-color: #3498db;
+  }
+}
+.form-message {
+  display: block;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+.submit {
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: #3498db;
+  display: inline-block;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  font-size: 22px;
+  padding: 5px 10px;
+}
+.invalid {
+  input {
+    border-color: #e74c3c;
+  }
+  .form-message {
+    color: #e74c3c;
+    display: block;
+  }
+}
+.form-message {
+  display: none;
+}
+.ItemUser {
+  margin-top: 20px;
+
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  &-Name {
+    color: #8e44ad;
+  }
+  &-Email {
+    color: #e74c3c;
+  }
+  &-Password {
+    color: orange;
+  }
+}
+.User {
+  margin-top: 20px;
+  background-color: white;
+  padding-top: 3px;
+  padding-bottom: 20px;
+}
